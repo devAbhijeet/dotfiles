@@ -1,6 +1,6 @@
 [user]
-  name = Kent C. Dodds
-  email = me+github@kentcdodds.com
+  name = Abhijeet M.Yadav
+  email = abhijeet.yadav@walmartlabs.com
 
 [pull]
   rebase = true
@@ -15,6 +15,12 @@
   amend = commit -a --amend --no-edit
   unstage = reset --soft HEAD
   cdiff = "!git diff $1 $1^"
+[help]
+  # Automatically correct and execute mistyped commands.
+  autocorrect = 1
+[merge]
+  # Include summaries of merged commits in newly created merge commit messages
+  log = true
 [push]
   default = current
 [core]
